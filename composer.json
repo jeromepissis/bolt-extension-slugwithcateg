@@ -1,0 +1,22 @@
+{
+	"name": "jpissis/slugwithcateg",
+	"description": "Add the post's category into the content type url",
+	"type": "blot-extension",
+	"require": {
+		"bolt/bolt": ">=2.0.0,<3.0.0"
+	},
+	"authors": [
+		{
+			"name": "Jérôme Pissis",
+			"email": "jerome.pissis@gmail.com"
+		}
+	],
+	"autoload": {
+		"files": [
+			"init.php"
+		],
+		"psr-4":{
+			"Bolt\\Extension\\Jpissis\\SlugWithCateg\\": ""
+		}
+	}
+}
