@@ -1,7 +1,7 @@
 {
 	"name": "jpissis/slugwithcateg",
 	"description": "Add the post's category into the content type url",
-	"type": "blot-extension",
+	"type": "bolt-extension",
 	"require": {
 		"bolt/bolt": ">=2.0.0,<3.0.0"
 	},
